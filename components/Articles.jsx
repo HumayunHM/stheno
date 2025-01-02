@@ -1,4 +1,5 @@
 import React from "react";
+import Article from "./Article";
 
 const Articles = () => {
   return (
@@ -8,10 +9,7 @@ const Articles = () => {
         Attain self-control by learning about the concepts of willpower.
       </p>
       <div className="grid grid-cols-3 gap-8">
-        <div className="bg-[#101018] h-48 rounded-lg"></div>
-        <div className="bg-[#101018] h-48 rounded-lg"></div>
-        <div className="bg-[#101018] h-48 rounded-lg"></div>
-        <div className="bg-[#101018] h-48 rounded-lg"></div>
+        <Article />
       </div>
     </div>
   );

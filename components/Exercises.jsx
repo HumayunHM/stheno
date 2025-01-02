@@ -1,4 +1,5 @@
 import React from "react";
+import Exercise from "./Exercise";
 
 const Exercises = () => {
   return (
@@ -8,10 +9,10 @@ const Exercises = () => {
         Research-proven exercises to gain discipline and self-control.
       </p>
       <div className="grid grid-cols-3 gap-8">
-        <div className="bg-[#AF7AD5] h-48 rounded-lg"></div>
-        <div className="bg-[#AF7AD5] h-48 rounded-lg"></div>
-        <div className="bg-[#AF7AD5] h-48 rounded-lg"></div>
-        <div className="bg-[#AF7AD5] h-48 rounded-lg"></div>
+        <Exercise />
+        <Exercise />
+        <Exercise />
+        <Exercise />
       </div>
     </div>
   );
